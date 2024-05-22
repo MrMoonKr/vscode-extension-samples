@@ -25,37 +25,45 @@
         "viewsContainers": {
             "activitybar": [ {
                 "id": "package-explorer",
-                "title": "Package Explorer",
+                "title": "Package Explorer ( 패키지 익스플로러 )",
                 "icon": "media/dep.svg"
             } ]
         },
         "views": {
-            "package-explorer": [ {
-                "id": "nodeDependencies",
-                "name": "Node Dependencies",
-                "icon": "media/dep.svg",
-                "contextualTitle": "Package Explorer"
-            } ],
-            "explorer": [ {
+            "package-explorer": [ 
+                {
+                    "id": "nodeDependencies",
+                    "name": "Node Dependencies",
+                    "icon": "media/dep.svg",
+                    "contextualTitle": "Package Explorer"
+                },
+                {
+                    "id": "exampleAcordionTab",
+                    "name": "Arcordion Tab ( 연습 )",
+                    "icon": "media/dep.svg"
+                }
+            ],
+            "explorer": [ 
+                {
                     "id": "jsonOutline",
                     "name": "Json Outline",
                     "when": "jsonOutlineEnabled"
                 },
                 {
                     "id": "ftpExplorer",
-                    "name": "FTP Explorer"
+                    "name": "FTP Explorer ( 원격 )"
                 },
                 {
                     "id": "fileExplorer",
-                    "name": "File Explorer"
+                    "name": "File Explorer ( 로컬 )"
                 },
                 {
                     "id": "testView",
-                    "name": "Test View"
+                    "name": "Test View ( 테스트 )"
                 },
                 {
                     "id": "testViewDragAndDrop",
-                    "name": "Test View Drag and Drop"
+                    "name": "Test View Drag and Drop ( 드래그앤드랍 )"
                 }
             ]
         },
