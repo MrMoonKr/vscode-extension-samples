@@ -67,7 +67,8 @@
                 }
             ]
         },
-        "commands": [ {
+        "commands": [ 
+            {
                 "command": "nodeDependencies.refreshEntry",
                 "title": "Refresh",
                 "icon": {
@@ -152,7 +153,8 @@
             "commandPalette": [ {
                 "command": "ftpExplorer.revealResource"
             } ],
-            "view/title": [ {
+            "view/title": [ 
+                {
                     "command": "nodeDependencies.refreshEntry",
                     "when": "view == nodeDependencies",
                     "group": "navigation"
@@ -176,7 +178,8 @@
                     "group": "navigation"
                 }
             ],
-            "view/item/context": [ {
+            "view/item/context": [ 
+                {
                     "command": "nodeDependencies.editEntry",
                     "when": "view == nodeDependencies && viewItem == dependency",
                     "group": "inline"
