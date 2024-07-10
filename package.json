@@ -9,6 +9,12 @@
 		"install": "node .scripts/run-command.js npm install",
 		"auditFix": "node .scripts/run-command.js npm audit fix",
 		"update-readme": "node .scripts/update-readme.js",
-		"update-lsif": "node .scripts/update-lsif.js"
+		"update-lsif": "node .scripts/update-lsif.js",
+
+		"yo": "yo code"
+	},
+	"devDependencies": {
+		"generator-code": "^1.11.1",
+		"yo": "^5.0.0"
 	}
 }
