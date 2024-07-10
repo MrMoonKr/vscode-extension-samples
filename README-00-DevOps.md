@@ -61,6 +61,45 @@ $ npm init --yes
 -
 - 
 
+## tsc 명령행 옵션들
+
+### 기본 옵션들
+
+- --help, -h: 도움말을 출력합니다.
+- --version: TypeScript의 버전을 출력합니다.
+- --init: 기본 설정 파일(tsconfig.json)을 생성합니다.
+- --project, -p <디렉토리/파일>: 특정 tsconfig.json 파일을 사용합니다.
+- --watch, -w: 파일을 감시하여 변경 시 자동으로 다시 컴파일합니다.
+- --build, -b: 프로젝트를 빌드합니다.
+
+### 파일 관련 옵션들
+
+- --outFile <파일>: 모든 입력 파일을 하나의 파일로 합칩니다.
+- --outDir <디렉토리>: 컴파일된 파일이 저장될 디렉토리를 지정합니다.
+- --rootDir <디렉토리>: 입력 파일의 기본 디렉토리를 지정합니다.
+- --sourceRoot <디렉토리>: 디버거가 사용할 소스 루트를 지정합니다.
+- --mapRoot <디렉토리>: 디버거가 사용할 소스 맵 파일의 위치를 지정합니다.
+
+### 컴파일러 동작 제어 옵션들
+
+- --target <버전>: ECMAScript 타겟 버전을 설정합니다 (ES3, ES5, ES6/ES2015, ES2016, ES2017, ES2018, ES2019, ES2020, ES2021, ES2022, ESNext).
+- --module <타입>: 모듈 시스템을 지정합니다 (CommonJS, AMD, System, UMD, ES6/ES2015, ESNext, None).
+- --lib <라이브러리>: 컴파일에 포함할 라이브러리를 설정합니다 (예: ES6, DOM).
+- --jsx <모드>: JSX 코드의 변환 모드를 설정합니다 (Preserve, React, React-native).
+- --declaration, --d: .d.ts 파일을 생성합니다.
+- --sourceMap, --sourcemap: 소스 맵 파일을 생성합니다.
+- --removeComments: 출력 파일에서 주석을 제거합니다.
+- --noEmit: 출력 파일을 생성하지 않습니다.
+- --noEmitOnError: 오류가 있을 경우 출력 파일을 생성하지 않습니다.
+- --strict: 모든 엄격한 타입 검사를 활성화합니다.
+
+### 디버깅 및 로깅 옵션
+
+- --diagnostics: 컴파일 시간을 출력합니다.
+- --extendedDiagnostics: 상세 컴파일 시간을 출력합니다.
+- --listFiles: 컴파일할 파일 목록을 출력합니다.
+- --traceResolution: 모듈 해상도 로그를 출력합니다.
+
 
 ## 추가 및 갱신해야할 내용들
 
